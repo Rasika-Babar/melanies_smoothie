@@ -5,6 +5,7 @@ import streamlit as st
 import os
 from snowflake.snowpark.functions import col
 import requests
+import pandas
 # Write directly to the app
 
 cnx= st.connection("snowflake")
